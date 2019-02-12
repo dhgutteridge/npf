@@ -31,8 +31,7 @@ CFLAGS+=	-Og -DDEBUG -fno-omit-frame-pointer
 else
 CFLAGS+=	-DNDEBUG
 endif
-
-LDFLAGS+=	-lnpf -lnv -lcrypto -lpcap
+LDFLAGS+=	-lnpf -lcrypto -lpcap
 
 #
 # System specific flags
